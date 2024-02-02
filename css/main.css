@@ -1084,7 +1084,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 header {
-	position: relative;
+	position: fixed;
 	width: 100%;
 	min-height: 66px;
 	z-index: 600;
@@ -1092,12 +1092,11 @@ header {
 header .row {
 	position: relative;
 	min-height: 66px;
-	justify-content: left;
 }
 header .top-bar {
-	display:block;
+	display: block;
 	background: #000000;
-	
+	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
